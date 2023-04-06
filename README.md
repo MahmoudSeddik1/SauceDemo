@@ -1,4 +1,4 @@
-SauceDemo Maven Project
+#SauceDemo Maven Project
 This Maven project is an automated test suite for testing the website "SauceDemo". The project is written in Java and uses the Selenium WebDriver and TestNG frameworks.
 
 Getting Started
