@@ -27,10 +27,10 @@ public class BaseTests {
         softAssert = new SoftAssert();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
-//        @AfterTest
-//    public void closeAll(){
-//        driver.quit();
-//    }
+       @AfterTest
+     public void closeAll(){
+       driver.quit();
+    }
 
     @BeforeMethod
     public void goHome(){
